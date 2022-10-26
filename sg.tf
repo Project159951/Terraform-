@@ -3,7 +3,7 @@
 
 resource "aws_security_group" "web-server" {
 name = "web-server"
-vpc_id = "vpc-031c2aee3b0ac40b5"
+vpc_id = "vpc-04338deb014792251"
 
 ingress {
     cidr_blocks = [
